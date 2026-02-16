@@ -1,0 +1,1537 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Rubik";
+    line-height: 1;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.h {
+    height: 60px;
+}
+.logo {
+    position: relative;
+    width: 168px;
+    height: 24px;
+    left: 20px;
+    top: 18px;
+}
+.kak {
+    position: relative;
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 1180px;
+    top: 12px;
+}
+.kak:hover{
+        text-decoration: underline;
+}
+.re {
+    position: relative;
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 1210px;
+    top: 12px;
+}
+.re:hover{
+        text-decoration: underline;
+}
+.ot {
+    position: relative;
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 1240px;
+    top: 12px;
+}
+.ot:hover{
+        text-decoration: underline;
+}
+.ce {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 1270px;
+    top: 12px;
+}
+.ce:hover{
+        text-decoration: underline;
+}
+.po {
+     border: none;
+     text-decoration: none;
+     padding: 7px;
+	width: 166px;
+    height: 55px;
+    padding: auto;
+	background-color: #cf711f;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 1300px;
+    top: 12px;
+}
+.po:hover {
+     background:#cf711f;
+     box-shadow: none;
+     position: relative;
+}
+.or{
+    height: 718px;
+    background-color: #fdf2e9;
+}
+.zd{
+    color: black;
+    font-weight: bold;
+    font-size: 52px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.ym{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #555555;
+    position: relative;
+    top: 75px;
+    left: 300px;
+}
+.nac {
+     border: none;
+     text-decoration: none;
+     padding: 3px;
+	width: 346px;
+    height: 52px;
+    padding: auto;
+	background-color: #cf711f;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+	color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 300px;
+    top: 100px;
+
+}
+.nac:hover {
+     background:#cf711f;
+     box-shadow: none;
+     position: relative;
+}
+.nac1{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-size: 20px;
+}
+.pop {
+     border: none;
+     text-decoration: none;
+     padding: 3px;
+	width: 191px;
+    height: 52px;
+    padding: auto;
+	background-color: #ffffff;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+	color: #555555;
+    font-weight: bold;
+    position: relative;
+    left: 675px;
+    top: 48px;
+
+}
+.pop:hover {
+     background:#cf711f;
+     box-shadow: none;
+     position: relative;
+}
+.pop1{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-size: 20px;
+}
+.iko{
+    position: relative;
+    top: 150px;
+    left: 300px;
+}
+.c1{
+    border: 5px solid #fdf2e9;
+    border-width: 10%;
+    border-radius: 50%;
+    width: 54px;
+    height:54px;
+}
+.c2{
+    border: 5px solid #fdf2e9;
+    border-width: 10%;
+    border-radius: 50%;
+    width: 54px;
+    height:54px;
+    position: relative;
+    left: -20px;
+}
+.c3{
+    border: 5px solid #fdf2e9;
+    border-width: 10%;
+    border-radius: 50%;
+    width: 54px;
+    height:54px;
+    position: relative;
+    left: -40px;
+}
+.c4{
+    border: 5px solid #fdf2e9;
+    border-width: 10%;
+    border-radius: 50%;
+    width: 54px;
+    height:54px;
+    position: relative;
+    left: -60px;
+}
+.c5{
+    border: 5px solid #fdf2e9;
+    border-width: 10%;
+    border-radius: 50%;
+    width: 54px;
+    height:54px;
+    position: relative;
+    left: -80px;
+}
+.c6{
+    border: 5px solid #fdf2e9;
+    border-width: 10%;
+    border-radius: 50%;
+    width: 54px;
+    height:54px;
+    position: relative;
+    left: -100px;
+}
+.dost{
+    width: 324px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 570px;
+    top: 113px;
+}
+.dost1{
+    color:#cf711f;
+}
+.dost2{
+    color: #555555;
+    position: relative;
+    top: -20px;
+    left: 100px;
+}
+.tre{
+    width: 560px;
+    height: 555px;
+    position: relative;
+    left: 1000px;
+    top: -440px;
+}
+.nas{
+    color:#777777;
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    font-weight: bolder;
+}
+.s1{
+    width:225px;
+    height: 32px;
+}
+.s2{
+    width:100px;
+    height: 32px;
+}
+.s3{
+    width:243px;
+    height: 32px;
+}
+.s4{
+    width:122px;
+    height: 32px;
+}
+.s5{
+    width:171px;
+    height: 32px;
+}
+.logo1{
+    position: relative;
+    top: 55px;
+    opacity: 50%;
+    word-spacing: 40px;
+    left: 440px;
+}
+.kakrab{
+    color: #cf711f;
+    font-size: 16px;
+    position: relative;
+    top: 150px;
+    font-weight: bold;
+    
+}
+.va{
+    font-weight: bold;
+    font-size: 44px;
+    position: relative;
+    top: 160px;
+
+}
+.cif{
+    color: #DDDDDD;
+    font-size:86px;
+    font-weight: bold;
+}
+.cif1{
+    position: relative;
+    top: 270px;
+
+}
+.raska{
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 290px;
+}
+.razm{
+    position: relative;
+    left: 420px;
+}
+.bol{
+    line-height: 1.5;
+    color: #555555;
+    font-size: 18px;
+    position: relative;
+    top: 335px;
+    font-weight: bold;
+}
+.kryg{
+    position: relative;
+    border-radius: 50%;
+    width: 321px;
+    height: 321px;
+    background-color: #FDF2E9;
+    left: 1120px;
+
+}
+.kryg1{
+    position: relative;
+    top: -280px;
+    border-radius: 50%;
+    width: 241px;
+    height: 241px;
+    background-color: #FAE5D3;
+    left: 1160px;
+}
+.tel{
+    position: relative;
+    top: -70px;
+    left: 27px;
+    width: 187px;
+    height: 379px;
+}
+.cif2{
+    position: relative;
+    left: 1000px;
+    top:-100px;
+}
+.raska1{
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: -80px;
+    left: 1000px;
+}
+.bol1{
+    line-height: 1.5;
+    color: #555555;
+    font-size: 18px;
+    position: relative;
+    top: -35px;
+    left: 1000px;
+    font-weight: bold;
+}
+.kryg2{
+    position: relative;
+    border-radius: 50%;
+    width: 321px;
+    height: 321px;
+    background-color: #FDF2E9;
+    left: 530px;
+    top: -330px;
+
+}
+.kryg3{
+    position: relative;
+    top: -613px;
+    border-radius: 50%;
+    width: 241px;
+    height: 241px;
+    background-color: #FAE5D3;
+    left: 570px;
+}
+.cif3{
+    position: relative;
+    top:-350px;
+}
+.raska2{
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: -320px;
+}
+.bol2{
+    line-height: 1.5;
+    color: #555555;
+    font-size: 18px;
+    position: relative;
+    top: -280px;
+    font-weight: bold;
+}
+.kryg4{
+    position: relative;
+    border-radius: 50%;
+    width: 321px;
+    height: 321px;
+    background-color: #FDF2E9;
+    left: 1100px;
+    top: -590px;
+
+}
+.kryg5{
+    position: relative;
+    top: -870px;
+    border-radius: 50%;
+    width: 241px;
+    height: 241px;
+    background-color: #FAE5D3;
+    left: 1141px;
+}
+.pri{
+    font-size: 16px;
+    color: #cf711f;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -680px;
+}
+.sistema{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    top: -670px;
+    line-height: 1.2;
+}
+.wrap{
+    perspective: 1800px;
+}
+.avokado {
+     border: none;
+     text-decoration: none;
+     padding: 7px;
+	width: 336px;
+    height: 506px;
+    padding: auto;
+	background-color: white;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 150px;
+    top: -550px;
+    display: flex;
+    gap: 8px;
+    transform: translateZ(0);
+    transition: transform 0.3s ease;
+}
+.avokado:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transform: translateZ(40px);
+}
+.meals{
+    width: 336px;
+    height: 224px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    left: -7px;
+    top: -7px;
+}
+.vegan{
+    background-color: #51CF66;
+    width: 129px;
+    height: 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 250px;
+    left: -300px;
+}
+.vegan1 {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    color: black;
+}
+.zzz{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    position: relative;
+    top: 280px;
+    left: -420px;
+}
+.fire{
+    width: 24px;
+    position: relative;
+    left: -585px;
+    top: 100px;
+}
+.vilka-nozh{
+    width: 24px;
+    position: relative;
+    left: -720px;
+    top: 150px;
+}
+.zvezda{
+    width: 24px;
+    position: relative;
+    left: -872px;
+    top: 200px;
+}
+.fire122{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 339px;
+    left: -570px;
+}
+.fire2{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 388px;
+    left: -707px;
+}
+.fire3{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 437px;
+    left: -857px;
+}
+.wrap1{
+    perspective: 1800px;
+}
+.avokado1 {
+     border: none;
+     text-decoration: none;
+     padding: 7px;
+	width: 336px;
+    height: 506px;
+    padding: auto;
+	background-color: white;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 1005px;
+    top: -1056px;
+    display: flex;
+    gap: 8px;
+    transform: translateZ(0);
+    transition: transform 0.3s ease;
+}
+.avokado1:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transform: translateZ(40px);
+}
+.meals1{
+    width: 336px;
+    height: 224px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    left: -7px;
+    top: -7px;
+}
+.meals1-img {
+    width: 336px;
+    height: 224px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.vegan122{
+    background-color: #51CF66;
+    width: 129px;
+    height: 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 250px;
+    left: -305px;
+}
+.vegan11 {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    color: black;
+}
+.vegan12{
+    background-color: #c7a510;
+    width: 129px;
+    height: 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 250px;
+    left: -300px;
+}
+.vegan111 {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    color: black;
+}
+.zzz1{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    position: relative;
+    top: 280px;
+    left: -430px;
+}
+.fire1{
+    width: 24px;
+    position: relative;
+    left: -595px;
+    top: 100px;
+}
+.vilka-nozh1{
+    width: 24px;
+    position: relative;
+    left: -730px;
+    top: 150px;
+}
+.zvezda1{
+    width: 24px;
+    position: relative;
+    left: -882px;
+    top: 200px;
+}
+.fire11{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 339px;
+    left: -590px;
+}
+.fire21{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 388px;
+    left: -725px;
+}
+.fire31{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 437px;
+    left: -875px;
+}
+.wrap19{
+    perspective: 1800px;
+}
+.avokado19 {
+     border: none;
+     text-decoration: none;
+     padding: 7px;
+	width: 336px;
+    height: 506px;
+    padding: auto;
+	background-color: white;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 581px;
+    top: -1562px;
+    display: flex;
+    gap: 8px;
+    transform: translateZ(0);
+    transition: transform 0.3s ease;
+}
+.avokado19:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transform: translateZ(40px);
+}
+.meals19{
+    width: 336px;
+    height: 224.16px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    left: -7px;
+    top: -7px;
+}
+.vegan1229{
+    background-color: #51CF66;
+    width: 129px;
+    height: 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 250px;
+    left: -305px;
+}
+.vegan119 {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    color: black;
+}
+.vegan129{
+    background-color: #c7a510;
+    width: 129px;
+    height: 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 250px;
+    left: -300px;
+}
+.vegan1119 {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    color: black;
+}
+.zzz19{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    position: relative;
+    top: 280px;
+    left: -480px;
+}
+.fire19{
+    width: 24px;
+    position: relative;
+    left: -595px;
+    top: 100px;
+}
+.vilka-nozh19{
+    width: 24px;
+    position: relative;
+    left: -730px;
+    top: 150px;
+}
+.zvezda19{
+    width: 24px;
+    position: relative;
+    left: -882px;
+    top: 200px;
+}
+.fire119{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 339px;
+    left: -590px;
+}
+.fire219{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 388px;
+    left: -725px;
+}
+.fire319{
+    font-size: 16px;
+    color: #777777;
+    white-space: nowrap;
+    font-weight: 500;
+    position: relative;
+    top: 437px;
+    left: -875px;
+}
+.podhod{
+    font-weight: bold;
+    font-size: 30px;
+    color:black;
+    position: relative;
+    top: -2070px;
+    left: 1420px;
+}
+.di{
+    color: #777777;
+    line-height: 2.5;
+    position: relative;
+    top: -2030px;
+    left: 1450px;
+    font-size: 18px;
+    list-style-image: url("galka.svg");
+}
+.w{
+    position: relative;
+    top: -10px;
+}
+.w1{
+    position: relative;
+    top: -10px;
+}
+.w2{
+    position: relative;
+    top: -10px;
+}
+.w3{
+    position: relative;
+    top: -10px;
+}
+.w4{
+    position: relative;
+    top: -10px;
+}
+.w5{
+    position: relative;
+    top: -10px;
+}
+.w6{
+    position: relative;
+    top: -10px;
+}
+.w7{
+    position: relative;
+    top: -10px;
+}
+.w8{
+    position: relative;
+    top: -10px;
+}
+.recep{
+    color: #cf711f;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: -1975px;
+    text-decoration: none;
+}
+.recep:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.d4{
+    border: 0px solid #FDF2E9;
+    height: 1147px;
+    width: 1920px;
+    background-color: #FDF2E9;
+    position: relative;
+    top: -1900px;
+}
+.otzivi{
+    color: #cf711f;
+    font-size: 16px;
+    position: relative;
+    top: 220px;
+    left: 100px;
+    font-weight: bold;
+}
+.poprobovav{
+    font-size: 44px;
+    font-weight: bold;
+    position: relative;
+    top: 230px;
+    left: 100px;
+}
+.pers1{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+.ser{
+    color:#777777
+}
+.otziv1{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555555;
+    position: relative;
+    top: 270px;
+    left: 100px;
+    font-weight: bold;
+    
+}
+.pers2{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 400px;
+    left: 100px;
+    
+}
+.otziv2{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555555;
+    position: relative;
+    top: 420px;
+    left: 100px;
+    font-weight: bold;
+}
+.pers3{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: -180px;
+    left: 540px;
+}
+.otziv3{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555555;
+    position: relative;
+    top: -162px;
+    left: 540px;
+    font-weight: bold;
+}
+.pers4{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: -83px;
+    left: 540px;
+}
+.otziv4{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555555;
+    position: relative;
+    top: -65px;
+    left: 540px;
+    font-weight: bold;
+}
+.galery{
+    width: 266px;
+
+}
+.block{
+    background-color: #FDF2E9;
+    width: 864px;
+    height: 1100px;
+    position: relative;
+    top: -980px;
+    left: 1060px;
+}
+.gal1{
+    position: relative;
+    top: -26px;
+    left: -16px;
+}
+.gal2{
+    position: relative;
+    top: -26px;
+}
+.gal3{
+    position: relative;
+    top: -26px;
+    left: 16px;
+}
+.gal4{
+    position: relative;
+    top: -12px;
+    left: -16px;
+}
+.gal5{
+    position: relative;
+    top: -12px;
+}
+.gal6{
+    position: relative;
+    top: -12px;
+    left: 16px;
+}
+.gal7{
+    position: relative;
+    top: 4px;
+    left: -16px;
+}
+.gal8{
+    position: relative;
+    top: 4px;
+}
+.gal9{
+    position: relative;
+    top: 4px;
+    left: 16px;
+}
+.gal10{
+    position: relative;
+    top: 20px;
+    left: -16px;
+}
+.gal11{
+    position: relative;
+    top: 20px;
+}
+.gal12{
+    position: relative;
+    top: 20px;
+    left: 16px;
+}
+.cena{
+    color: #cf711f;
+    font-size: 16px;
+    position: relative;
+    font-weight: 400;
+    top: -1780px;
+    left: 400px;
+}
+.pitat{
+    font-weight: bold;
+    font-size: 44px;
+    position: relative;
+    top: -1760px;
+    left: 400px;
+}
+.kidka{
+    border: 2px solid #FDF2E9;
+    width: 402px;
+    height: 626px;
+    border-radius: 2%;
+    position: relative;
+    top: -1660px;
+    left: 535px;
+}
+.start{
+    font-size: 20px;
+    color: #cf711f;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: 35px;
+}
+.rybl{
+    font-size: 62px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.zaodin{
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 63px;
+    line-height: 1.5;
+}
+.di1{
+    color: #777777;
+    position: relative;
+    top: -2040px;
+    left: 640px;
+    font-size: 18px;
+    list-style-image: url("galka.svg");
+}
+.vilib{
+    position: relative;
+    top: -10px;
+}
+.vilib1{
+    position: relative;
+    top: -10px;
+}
+.vilib2{
+    position: relative;
+    top: -10px;
+}
+.krest{
+    position: relative;
+    top: 300px;
+    left: 65px;
+}
+.nach_pit{
+    border: none;
+    text-decoration: none;
+    padding: 7px;
+	width: 306px;
+    height: 72px;
+    padding: auto;
+	background-color: #cf711f;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+    position: relative;
+    left: 50px;
+    top: 340px;
+}
+.nach_pit:hover {
+     background:#cf711f;
+     box-shadow: none;
+     position: relative;
+}
+.nac_pit{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+        position: relative;
+    top: 8px;
+}
+.podpiska2{
+    border: 0px solid #FDF2E9;
+    background-color: #FDF2E9;
+    width: 402px;
+    height: 626px;
+    border-radius: 2%;
+    position: relative;
+    top: -2440px;
+    left: 1025px;
+    overflow: hidden;
+}
+.best{
+    width: 245px;
+    height: 30px;
+    background-color: #FFD43B;
+    rotate: 45deg;
+    position: relative;
+    left: 230px;
+    top: 33px;
+}
+.bess{
+    text-align: center;
+    position: relative;
+    top: 7px;
+    font-weight: 500;
+}
+.start1{
+    font-size: 20px;
+    color: #cf711f;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+}
+.rybl1{
+    font-size: 62px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.zaodin1{
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 33px;
+    line-height: 1.5;
+}
+.nach_pit1{
+    border: none;
+    text-decoration: none;
+    padding: 7px;
+	width: 306px;
+    height: 72px;
+    padding: auto;
+	background-color: #cf711f;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+    position: relative;
+    left: 50px;
+    top: 345px;
+}
+.nach_pit1:hover {
+     background:#cf711f;
+     box-shadow: none;
+     position: relative;
+}
+.nac_pit1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: 8px;
+}
+.di11{
+    color: #777777;
+    position: relative;
+    top: -2820px;
+    left: 1130px;
+    font-size: 18px;
+    list-style-image: url("galka.svg");
+}
+.vilib111{
+    position: relative;
+    top: -10px;
+}
+.vilib11{
+    position: relative;
+    top: -10px;
+}
+.vilib21{
+    position: relative;
+    top: -10px;
+}
+.vilib31{
+    position: relative;
+    top: -20px;
+}
+.cena_vkl{
+    color: #777777;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: -2580px;
+}
+.svg{
+    position: relative;
+    top: -2470px;
+    left: 400px;
+}
+.svg2{
+    position: relative;
+    left: 220px;
+}
+.svg3{
+    position: relative;
+    left: 440px;
+}
+.svg4{
+    position: relative;
+    left: 660px;
+}
+.beskon{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    color: black;
+    position: relative;
+    top: -2470px;
+    left: 400px;
+}
+.beskon1{
+    font-size: 18px;
+    color:#777777;
+    position: relative;
+    top: -2470px;
+    left: 400px;
+    line-height: 1.5;
+}
+.apple{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    top: -2665px;
+    left: 690px;
+    color: black;
+}
+.apple1{
+    font-size: 18px;
+    color:#777777;
+    position: relative;
+    top: -2665px;
+    left: 690px;
+    line-height: 1.5;
+}
+.listik{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    top: -2888px;
+    left: 980px;
+    color: black;
+}
+.listik1{
+    font-size: 18px;
+    color:#777777;
+    position: relative;
+    top: -2870px;
+    left: 980px;
+    line-height: 1.5;
+}
+.payza{
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    top: -3020px;
+    left: 1270px;
+    color: black;
+}
+.payza1{
+    font-size: 18px;
+    color:#777777;
+    position: relative;
+    top: -3003px;
+    left: 1270px;
+    line-height: 1.5;
+}
+.forma{
+    background-color: #cf711f;
+    width:1136px;
+    height: 584px;
+    border-radius: 2%;
+    position: relative;
+    top: -2800px;
+    left: 392px;
+    overflow: hidden;    
+}
+.zensh{
+    height: 584px;
+    position: relative;
+    left: 715px;
+}
+.slogan{
+    font-weight: 600;
+    font-size: 44px;
+    position: relative;
+    top: -3330px;
+    left: 450px;
+}
+.zdorovo{
+    font-size: 18px;
+    line-height: 1.5;
+    position: relative;
+    top: -3290px;
+    left: 450px;
+    color: #45260A;
+}
+.vasname{
+    font-weight: 500;
+    position: relative;
+    top: -3260px;
+    left: 450px;
+}
+.vasename{
+    font-weight: 500;
+    position: relative;
+    top: -3275px;
+    left: 780px;
+}
+.vasiname{
+    font-weight: 500;
+    position: relative;
+    top: -3185px;
+    left: 450px;
+}
+.input1{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    width: 298px;
+    height: 46px;
+    border-radius: 0.5rem;
+    position: relative;
+    top: -3296px;
+    left: 450px;
+}
+.input2{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    width: 298px;
+    height: 46px;
+    border-radius: 0.5rem;
+    position: relative;
+    top: -3296px;
+    left: 475px;
+}
+.input3{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    width: 298px;
+    height: 46px;
+    border-radius: 0.5rem;
+    position: relative;
+    top: -3170px;
+    left: -154px;
+}
+.dom {
+     text-decoration: none;
+     padding: 7px;
+	width: 299px;
+    height: 48px;
+    padding: auto;
+	background-color: #45260A;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    left: 777px;
+    top: -3216px;
+}
+.dom:hover {
+     background:#45260A;
+     box-shadow: none;
+     position: relative;
+}
+.dom1{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 6px;
+}
+.hr{
+    position: relative;
+    top: -2800px;
+    background-color: #EEEEEE;
+    opacity: 0.2;
+}
+.omnifoodlogo{
+    position: relative;
+    top: -2650px;
+    left: 370px;
+    width: 163px;
+    height: 22px;
+}
+.insta{
+    position: relative;
+    top: -2620px;
+    left: 370px;
+}
+.avtorskie{
+    position: relative;
+    top: -2570px;
+    left: 370px;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.5;
+}
+.svaz{
+    position: relative;
+    top: -2765px;
+    left: 650px;
+    width: 213.58px;
+    height: 18px;   
+}
+.ylisa{
+ position: relative;
+    top: -2730px;
+    left: 650px;
+    width: 213.58px;
+    height: 52px; 
+    color: #777777;  
+
+}
+.telefon{
+    position: relative;
+    top: -2710px;
+    left: 650px;
+    width: 143px;
+    height: 26px; 
+    color: #777777;  
+    
+}
+.akkk{
+     position: relative;
+    top: -2865px;
+    left: 950px;
+    width: 142.39px;
+    height: 18px; 
+}
+.sozd{
+    position: relative;
+    top: -2830px;
+    left: 950px;
+    width: 143px;
+    height: 26px; 
+    color: #777777;
+}
+.komp{
+    position: relative;
+    top: -2910px;
+    left: 1200px;
+    width: 142.39px;
+    height: 18px; 
+}
+.onas{
+    position: relative;
+    top: -2880px;
+    left: 1200px;
+    width: 143px;
+    height: 26px; 
+    color: #777777;
+}
+.res{
+    position: relative;
+    top: -2956px;
+    left: 1460px;
+    width: 168.08px;
+    height: 18px; 
+}
+.sbor{
+   position: relative;
+    top: -2935px;
+    left: 1430px;
+    width: 168.08px;
+    height: 19px; 
+    color: #777777; 
+}
