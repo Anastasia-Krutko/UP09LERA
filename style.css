@@ -1350,7 +1350,7 @@ body {
         width: 80%;
         max-width: 25rem; /* 400px */
         height: 100vh;
-        background-color: #F3D9DC;
+        background-color: #e68537;
         padding: 5rem 2rem 2rem;
         transition: right 0.3s ease-in-out;
         z-index: 1001;
@@ -1386,12 +1386,12 @@ body {
         height: 3rem; /* 48px */
         font-size: 1.25rem;
         margin-top: 1rem;
-        background-color: #744253;
+        background-color: #e7b75d;
         color: white !important;
     }
     
     .nav-link-button:hover {
-        background-color: #B49286;
+        background-color: #fc8845;
     }
     
     /* Заголовок для меню */
@@ -1401,10 +1401,10 @@ body {
         font-family: 'Rubik', sans-serif;
         font-weight: 700;
         font-size: 1.5rem;
-        color: #744253;
+        color: #d87626;
         margin-bottom: 2rem;
         padding-bottom: 1rem;
-        border-bottom: 0.125rem solid #744253;
+        border-bottom: 0.125rem solid #945a24;
     }
     
     /* Блокируем скролл body при открытом меню */
