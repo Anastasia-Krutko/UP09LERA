@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omnifood - Здоровое питание с доставкой</title>
+    <meta http-equiv="X-Frame-Options" content="DENY">
+	<meta http-equiv="X-Content-Type-Options" content="nosniff">
+	<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta name="description" content="Умная подписка на еду 365 дней в году. Персонализированные планы питания с доставкой на дом.">
     <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" 
+		 content="default-src 'self'; 
+		 script-src 'self' https://cdn.tailwindcss.com https://unpkg.com;
+		 font-src 'self' https://fonts.gstatic.com;
+		 style-src 'self' https://fonts.googleapis.com;">
 </head>
 <body>
  <!-- Шапка сайта с навигацией -->
 <header class="page-header">
     <div class="container">
         <!-- Чекбокс для управления меню -->
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <input 
+        type="checkbox" 
+        id="menu-toggle" 
+        class="menu-toggle"
+        name="checkbox"
+        pattern="[A-Za-z\s\-]{2,50}"
+        title="Только буквы, пробелы и дефисы"
+        required>
         
         <!-- Оверлей для затемнения -->
         <div class="menu-overlay"></div>
@@ -463,11 +478,25 @@
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="name">Ваше имя</label>
-                                    <input type="text" id="name" name="name" placeholder="Имя" required>
+                                    <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    placeholder="Имя" 
+                                    pattern="[A-Za-z\s\-]{2,50}"
+                                    title="Только буквы, пробелы и дефисы"
+                                    required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Ваша почта</label>
-                                    <input type="email" id="email" name="email" placeholder="lerochka@interner.ru" required>
+                                    <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    placeholder="lerochka@interner.ru" 
+                                    pattern="[A-Za-z\s\-\@\.]{2,50}"
+                                    title="Только буквы, пробелы и дефисы"
+                                    required>
                                 </div>
                             </div>
                             <div class="form-row">
